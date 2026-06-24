@@ -1,4 +1,4 @@
-name: Publish Tessl Tile
+name: Publish Tessl Plugin
 
 on:
   push:
@@ -8,9 +8,13 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: tesslio/setup-tessl@v2
         with:
           token: ${{ secrets.TESSL_TOKEN }}
-      - run: tessl tile publish
+      - run: tessl plugin lint
+      - run: tessl plugin publish
