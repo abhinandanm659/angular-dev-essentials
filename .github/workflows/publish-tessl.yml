@@ -11,6 +11,9 @@ jobs:
     permissions:
       id-token: write
       contents: read
+    defaults:
+      run:
+        working-directory: figma-feature-builder-agent/plugins/fnl-angular-dev-essentials
     steps:
       - uses: actions/checkout@v6
       - uses: tesslio/setup-tessl@v2
