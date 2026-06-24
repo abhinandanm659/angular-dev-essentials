@@ -1,6 +1,6 @@
 ---
-name: fnl-reactive-forms
-description: 'Reactive Forms in Angular 21+ — typed FormControl/FormGroup/FormArray, validators (sync, async, cross-field), error display, and the NgRx dispatch-bridge pattern. USE FOR: building or fixing any form, validation, dynamic field lists, or wiring a form to the store. DO NOT USE FOR: NgRx slice creation itself (use fnl-ngrx-state-management), Material form-field styling/appearance (use fnl-angular-material), component/template authoring (use fnl-component-authoring), or writing specs (use fnl-angular-testing). Trigger phrases: "form", "FormControl", "FormGroup", "FormArray", "FormBuilder", "validator", "validation", "cross-field", "async validator", "form error", "valueChanges", "mat-error", "required field".'
+name: fnl-angular-material
+description: 'fnl-angular-material.'
 ---
 
 # Reactive Forms (Angular 21+)
