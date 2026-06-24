@@ -1,6 +1,6 @@
 {
   "name": "testing121212/fnl-angular-dev-essentials",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular development essentials — skills for components, reactive forms, NgRx, Material, theming, testing, D3 charts, and Figma fidelity.",
   "private": false
 }
